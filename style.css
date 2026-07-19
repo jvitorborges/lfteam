@@ -198,17 +198,27 @@ h3, h4 { margin: 0; font-weight: 800; text-wrap: balance; }
 .hero-bg {
   position: absolute; inset: 0; z-index: 0;
   background-image: url('imagens/hero-mobile.webp');
-  background-size: cover;
-  background-position: center 42%;
+  /* ponytail: no celular a foto cabe inteira no frame, então `cover` não corta
+     nada e o teto aparece todo. O zoom de 135% cria a sobra vertical que o
+     background-position precisa pra descer o enquadramento. */
+  background-size: auto 135%;
+  background-position: center 88%;
   background-repeat: no-repeat;
 }
 
 .hero-overlay {
   position: absolute; inset: 0; z-index: 1;
   background:
-    radial-gradient(120% 80% at 50% 0%, rgba(10,10,10,.35), rgba(10,10,10,.86) 62%, rgba(10,10,10,.97) 100%),
-    linear-gradient(180deg, rgba(10,10,10,.5) 0%, transparent 30%);
+    radial-gradient(120% 80% at 50% 0%, rgba(10,10,10,.22), rgba(10,10,10,.72) 62%, rgba(10,10,10,.93) 100%),
+    linear-gradient(180deg, rgba(10,10,10,.38) 0%, transparent 30%);
 }
+/* O zoom acima é só pra tela de celular: a partir de 600px o frame já fica
+   largo o bastante pro `cover` cortar o teto sozinho, e manter o zoom deixaria
+   a imagem estreita demais pra cobrir a largura (tarja preta nas laterais). */
+@media (min-width: 600px) {
+  .hero-bg { background-size: cover; background-position: center 42%; }
+}
+
 /* emenda suave entre o hero e a próxima seção */
 .hero-fade {
   position: absolute; left: 0; right: 0; bottom: -1px; height: 140px; z-index: 2;
