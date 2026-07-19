@@ -1,0 +1,12 @@
+# dependencias (reinstalaveis com: npm install)
+node_modules/
+
+# configuracao local da Vercel
+.vercel/
+
+# originais do Drive do cliente — nao versionados por tamanho (49MB)
+# ficam no Drive do cliente e na maquina local
+drive/
+
+# previews descartaveis
+_prev/

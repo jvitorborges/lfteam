@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LFTEAM — Consultoria de Treino Online</title>
+<meta name="description" content="Resultados reais com método, sem achismo. Consultoria online de treino e dieta, protocolo 100% individualizado com acompanhamento semanal.">
+<link rel="canonical" href="https://lfteam-site.vercel.app/">
+
+<!-- prévia ao compartilhar no WhatsApp, Instagram, etc. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LFTEAM">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://lfteam-site.vercel.app/">
+<meta property="og:title" content="LFTEAM — Consultoria de Treino Online">
+<meta property="og:description" content="Resultados reais com método, sem achismo. Mais de 40 mulheres já confiaram no método LFTEAM.">
+<meta property="og:image" content="https://lfteam-site.vercel.app/imagens/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="LFTEAM — consultoria de treino online">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LFTEAM — Consultoria de Treino Online">
+<meta name="twitter:description" content="Resultados reais com método, sem achismo. Mais de 40 mulheres já confiaram no método LFTEAM.">
+<meta name="twitter:image" content="https://lfteam-site.vercel.app/imagens/og-image.jpg">
+
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="imagens/hero-mobile.webp" media="(max-width: 699px)" fetchpriority="high">
+<link rel="preload" as="image" href="imagens/hero-desktop.webp" media="(min-width: 700px)" fetchpriority="high">
+<link rel="stylesheet" href="style.css">
+
+<!-- Dados estruturados: negócio online, atendimento em todo o Brasil. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://lfteam-site.vercel.app/#negocio",
+  "name": "LFTEAM",
+  "description": "Consultoria de treino online com foco em treino feminino. Protocolo individual de treino e dieta, com acompanhamento semanal.",
+  "url": "https://lfteam-site.vercel.app/",
+  "image": "https://lfteam-site.vercel.app/imagens/og-image.jpg",
+  "priceRange": "R$300 - R$1800",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Olho D'Água das Cunhãs",
+    "addressRegion": "MA",
+    "addressCountry": "BR"
+  },
+  "areaServed": { "@type": "Country", "name": "Brasil" },
+  "sameAs": ["https://instagram.com/_luisfernando._"],
+  "founder": {
+    "@type": "Person",
+    "name": "Luis Fernando",
+    "jobTitle": "Consultor de treino",
+    "sameAs": "https://instagram.com/_luisfernando._"
+  },
+  "knowsAbout": ["Treino feminino", "Hipertrofia", "Emagrecimento", "Periodização de treino"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Planos de consultoria",
+    "itemListElement": [
+      { "@type": "Offer", "price": "300", "priceCurrency": "BRL", "itemOffered": { "@type": "Service", "name": "Basic — Porta de entrada", "description": "Treino 100% individualizado para aplicar por conta própria, sem acompanhamento contínuo. Trimestral." } },
+      { "@type": "Offer", "price": "450", "priceCurrency": "BRL", "itemOffered": { "@type": "Service", "name": "Premium", "description": "Treino OU dieta individualizados, com acompanhamento contínuo e ajustes conforme a evolução." } },
+      { "@type": "Offer", "price": "540", "priceCurrency": "BRL", "itemOffered": { "@type": "Service", "name": "Plus — Experiência completa", "description": "Treino e dieta individualizados, com acompanhamento completo em ambos os pilares." } }
+    ]
+  }
+}
+</script>
+
+<!-- FAQ marcado: pode aparecer expandido no resultado da busca.
+     O texto tem que ser idêntico ao visível na página. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Como funciona o acompanhamento?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Após a confirmação da inscrição, você responde à anamnese e recebe seu protocolo totalmente individualizado. Durante o acompanhamento, os ajustes são realizados conforme sua evolução, feedbacks e necessidades." }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso treinar em alguma academia específica?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Não. O treino é desenvolvido considerando os equipamentos que você tem disponíveis. Caso algum exercício não possa ser realizado, ele é substituído por outra opção equivalente." }
+    },
+    {
+      "@type": "Question",
+      "name": "Em quanto tempo recebo meu protocolo?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Após o preenchimento da anamnese, o protocolo é elaborado individualmente e enviado em até 5 dias úteis." }
+    },
+    {
+      "@type": "Question",
+      "name": "Tenho dor ou alguma limitação. Posso participar?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim. Essas informações são levantadas durante a anamnese e consideradas na elaboração do treino, respeitando suas limitações e histórico." }
+    },
+    {
+      "@type": "Question",
+      "name": "E se eu nunca conseguir manter uma rotina?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Esse é justamente um dos principais motivos para buscar acompanhamento. O objetivo da consultoria não é apenas entregar um treino, mas construir uma estratégia que faça sentido para sua realidade e possa ser mantida ao longo do tempo." }
+    },
+    {
+      "@type": "Question",
+      "name": "Os treinos são iguais para todas as alunas?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Não. Cada protocolo é desenvolvido individualmente considerando seus objetivos, rotina, experiência, disponibilidade de equipamentos, limitações e evolução durante o acompanhamento." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#resultados">Pular para os resultados</a>
+
+<nav class="nav">
+  <a class="logo" href="#topo" aria-label="LFTEAM — início">
+    <img src="imagens/logo.png" alt="LFTEAM" width="600" height="600">
+  </a>
+  <div class="nav-links">
+    <a href="#resultados">Resultados</a>
+    <a href="#metodo">Método</a>
+    <a href="#planos">Planos</a>
+    <a href="#faq">FAQ</a>
+  </div>
+  <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+    <span class="hbar"></span><span class="hbar"></span><span class="hbar"></span>
+  </button>
+</nav>
+<div class="nav-mobile-panel">
+  <a href="#resultados">Resultados</a>
+  <a href="#metodo">Método</a>
+  <a href="#planos">Planos</a>
+  <a href="#faq">FAQ</a>
+  <a class="painel-cta" href="https://wa.me/message/B2UKSFDEUSQTC1" target="_blank" rel="noopener">Entrar para o time</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="topo">
+  <!-- Fundo aplicado por CSS: o <picture> deixava o navegador escolher a fonte
+       antes de saber a largura da tela, e o desktop acabava com a foto do celular. -->
+  <div class="hero-bg" role="img" aria-label="Luis Fernando e alunas do LFTEAM na academia"></div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-inner">
+    <img src="imagens/logo.png" alt="LFTEAM" class="hero-logo hero-anim" width="600" height="600">
+    <span class="eyebrow hero-anim">Consultoria online</span>
+    <h1 class="hero-anim">Treino estruturado pra <em>mulheres</em> que levam o corpo a sério</h1>
+    <p class="sub hero-anim">Resultados reais com método, sem achismo — protocolo pensado pra sua rotina real.</p>
+    <div class="hero-anim">
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://wa.me/message/B2UKSFDEUSQTC1" target="_blank" rel="noopener">Entrar para o time</a>
+        <a class="btn btn-outline" href="#resultados">Ver resultados</a>
+      </div>
+      <p class="hero-proof">Mais de 40 mulheres já confiaram no método LFTEAM</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="n">45+</div><div class="l">Musas transformadas</div></div>
+        <div class="hero-stat"><div class="n">100%</div><div class="l">Protocolo individual</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-fade"></div>
+</header>
+
+<!-- ============ RESULTADOS ============ -->
+<section class="section" id="resultados">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Antes e depois</span>
+      <h2>Resultados de quem decidiu treinar com método</h2>
+      <p class="center">Cada resultado respeita o tempo, a rotina e o objetivo individual de cada uma.</p>
+    </div>
+  </div>
+  <div class="marquee marquee-lg reveal" data-zoom="true">
+    <div class="marquee-track">
+      <figure class="shot"><img src="imagens/resultado-1.webp" alt="Antes e depois de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot"><img src="imagens/resultado-2.webp" alt="Antes e depois de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot"><img src="imagens/resultado-3.webp" alt="Antes e depois de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot"><img src="imagens/resultado-4.webp" alt="Antes e depois de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot"><img src="imagens/resultado-5.webp" alt="Antes e depois de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot"><img src="imagens/resultado-6.webp" alt="Antes e depois de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot"><img src="imagens/resultado-7.webp" alt="Antes e depois de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot"><img src="imagens/resultado-8.webp" alt="Antes e depois de aluna do LFTEAM" loading="lazy"></figure>
+    </div>
+  </div>
+  <p class="marquee-hint">Toque pra pausar · arraste pra navegar</p>
+</section>
+
+<!-- ============ QUALIFICAÇÃO ============ -->
+<div class="divisor" aria-hidden="true"><span class="divisor-raio"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4.5 13.5H11l-1 8.5 8.5-11.5H12l1-8.5z"/></svg></span></div>
+
+<section class="section" id="qualificacao">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Qualificação</span>
+      <h2>Pra quem é essa consultoria</h2>
+      <p class="center">Não buscamos clientes, buscamos pessoas comprometidas com a própria evolução.</p>
+    </div>
+    <div class="qual-single reveal">
+      <h3>É para você que</h3>
+      <ul>
+        <li><span class="qual-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l6 6L20 6"/></svg></span>Quer um protocolo realmente individualizado</li>
+        <li><span class="qual-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l6 6L20 6"/></svg></span>Está cansada de repetir ficha genérica sem evoluir</li>
+        <li><span class="qual-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l6 6L20 6"/></svg></span>Valoriza acompanhamento e suporte constantes</li>
+        <li><span class="qual-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l6 6L20 6"/></svg></span>Entende que resultado exige constância e não soluções milagrosas</li>
+        <li><span class="qual-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l6 6L20 6"/></svg></span>Quer aprender a treinar melhor, não apenas treinar mais</li>
+      </ul>
+    </div>
+    <div class="qual-cta reveal"><a class="btn btn-primary" href="https://wa.me/message/B2UKSFDEUSQTC1" target="_blank" rel="noopener">Essa sou eu, quero começar</a></div>
+  </div>
+</section>
+
+<!-- ============ DEPOIMENTOS ============ -->
+<div class="divisor" aria-hidden="true"><span class="divisor-raio"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4.5 13.5H11l-1 8.5 8.5-11.5H12l1-8.5z"/></svg></span></div>
+
+<section class="section" id="depoimentos">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Depoimentos</span>
+      <h2>O que dizem as alunas</h2>
+    </div>
+  </div>
+  <div class="marquee marquee-lg reveal" data-zoom="true" data-reverse="true">
+    <div class="marquee-track">
+      <figure class="shot shot-nat"><img src="imagens/depoimento-1.webp" alt="Depoimento de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot shot-nat"><img src="imagens/depoimento-2.webp" alt="Depoimento de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot shot-nat"><img src="imagens/depoimento-3.webp" alt="Depoimento de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot shot-nat"><img src="imagens/depoimento-4.webp" alt="Depoimento de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot shot-nat"><img src="imagens/depoimento-5.webp" alt="Depoimento de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot shot-nat"><img src="imagens/depoimento-6.webp" alt="Depoimento de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot shot-nat"><img src="imagens/depoimento-7.webp" alt="Depoimento de aluna do LFTEAM" loading="lazy"></figure>
+      <figure class="shot shot-nat"><img src="imagens/depoimento-8.webp" alt="Depoimento de aluna do LFTEAM" loading="lazy"></figure>
+    </div>
+  </div>
+  <div class="container">
+    <div class="carousel-cta reveal"><a class="btn btn-primary" href="https://wa.me/message/B2UKSFDEUSQTC1" target="_blank" rel="noopener">Quero viver essa experiência</a></div>
+  </div>
+</section>
+
+<!-- ============ MÉTODO ============ -->
+<div class="divisor" aria-hidden="true"><span class="divisor-raio"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4.5 13.5H11l-1 8.5 8.5-11.5H12l1-8.5z"/></svg></span></div>
+
+<section class="section" id="metodo">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Método</span>
+      <h2>O que acontece depois que você entra</h2>
+      <p class="center">Treino, dieta, vídeos, acompanhamento e suporte em um único aplicativo.</p>
+    </div>
+
+    <div class="metodo-grid">
+      <div class="metodo-video reveal">
+        <div class="phone">
+          <div class="phone-notch"></div>
+          <video src="video/app.mp4" poster="imagens/app-poster.webp" muted loop playsinline preload="metadata"
+                 aria-label="Demonstração do aplicativo exclusivo do LFTEAM"></video>
+          <button class="phone-play" type="button" aria-label="Reproduzir vídeo do aplicativo">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+        <p class="phone-label">Aplicativo exclusivo</p>
+      </div>
+
+      <div class="metodo-cards reveal">
+        <article class="mcard">
+          <span class="mcard-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6v12M18 6v12M2 9v6M22 9v6M6 12h12"/></svg>
+          </span>
+          <h3>Treino individual</h3>
+          <p>Estruturado conforme sua rotina.</p>
+        </article>
+        <article class="mcard">
+          <span class="mcard-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 5v6a3 3 0 0 0 6 0V5M17 3c-1.5 2-2 4-2 6s.5 3 2 3"/></svg>
+          </span>
+          <h3>Plano alimentar</h3>
+          <p>Respeitando seu contexto e adesão.</p>
+        </article>
+        <article class="mcard">
+          <span class="mcard-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.1A8.4 8.4 0 0 1 4 11.5a8.5 8.5 0 0 1 17 0z"/></svg>
+          </span>
+          <h3>Suporte via WhatsApp</h3>
+          <p>Acompanhamento semanal com correções de execução e microajustes.</p>
+        </article>
+        <article class="mcard">
+          <span class="mcard-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V6a2 2 0 0 1 2-2h13v16H6.5A2.5 2.5 0 0 0 4 22.5z"/><path d="M9 8h6"/></svg>
+          </span>
+          <h3>Materiais extras</h3>
+          <p>Guias e conteúdos exclusivos para orientação.</p>
+        </article>
+        <article class="mcard">
+          <span class="mcard-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 9l5 3-5 3z"/></svg>
+          </span>
+          <h3>Biblioteca de vídeos</h3>
+          <p>Execuções de exercícios dentro do aplicativo.</p>
+        </article>
+        <article class="mcard">
+          <span class="mcard-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M16 8h5v5"/></svg>
+          </span>
+          <h3>Evolução</h3>
+          <p>Feedback com fotos e análise de progressão constantes.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLANOS ============ -->
+<div class="divisor" aria-hidden="true"><span class="divisor-raio"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4.5 13.5H11l-1 8.5 8.5-11.5H12l1-8.5z"/></svg></span></div>
+
+<section class="section" id="planos">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Escolha sua experiência</span>
+      <h2>Qual acompanhamento combina com seu objetivo?</h2>
+      <p class="center">Todos os planos são individualizados. O que muda é o nível de acompanhamento e os recursos incluídos.</p>
+    </div>
+
+    <div class="plans-grid reveal">
+
+      <article class="plan">
+        <span class="plan-badge">Porta de entrada</span>
+        <h3>Basic</h3>
+        <p class="plan-desc">Ideal para quem deseja um treino individualizado para aplicar por conta própria, sem necessidade de acompanhamento contínuo.</p>
+        <ul class="plan-list">
+          <li class="yes">Anamnese inicial</li>
+          <li class="yes">Treino 100% individualizado</li>
+          <li class="yes">Acesso ao aplicativo</li>
+          <li class="yes">Vídeos de execução dos exercícios</li>
+          <li class="no">Sem acompanhamento</li>
+          <li class="no">Sem ajustes periódicos</li>
+          <li class="no">Sem materiais exclusivos</li>
+        </ul>
+        <div class="plan-pricing">
+          <p class="plan-only">Disponível apenas na modalidade trimestral.</p>
+          <div class="price"><span class="price-cur">R$</span><span class="price-val">300</span></div>
+          <p class="price-parcel">ou 3x de R$ 100</p>
+        </div>
+        <a class="btn btn-outline plan-btn" href="https://wa.me/message/B2UKSFDEUSQTC1" target="_blank" rel="noopener">Quero começar</a>
+      </article>
+
+      <article class="plan featured">
+        <span class="plan-flag">Mais escolhido</span>
+        <span class="plan-badge">Acompanhamento</span>
+        <h3>Premium</h3>
+        <p class="plan-desc">Para quem deseja acompanhamento profissional em um dos pilares mais importantes da evolução: treino ou alimentação.</p>
+        <ul class="plan-list">
+          <li class="yes">Treino <strong>OU</strong> dieta individualizados</li>
+          <li class="yes">Acompanhamento contínuo</li>
+          <li class="yes">Ajustes conforme sua evolução</li>
+          <li class="yes">Suporte direto</li>
+          <li class="yes">Aplicativo exclusivo</li>
+          <li class="yes">Guia Didático de Progressão de Carga</li>
+          <li class="yes">E-books exclusivos</li>
+        </ul>
+        <div class="plan-pricing">
+          <p class="plan-only">Escolha a duração:</p>
+          <ul class="durations">
+            <li><span>Trimestral</span><b>R$ 450<small>3x de R$ 150</small></b></li>
+            <li><span>Semestral</span><b>R$ 840<small>6x de R$ 140</small></b></li>
+            <li><span>Anual</span><b>R$ 1.440<small>12x de R$ 120</small></b></li>
+          </ul>
+        </div>
+        <a class="btn btn-primary plan-btn" href="https://wa.me/message/B2UKSFDEUSQTC1" target="_blank" rel="noopener">Quero o Premium</a>
+      </article>
+
+      <article class="plan">
+        <span class="plan-badge">Experiência completa</span>
+        <h3>Plus</h3>
+        <p class="plan-desc">Acompanhamento completo para quem deseja evoluir simultaneamente no treino e na alimentação, com suporte em ambos os pilares.</p>
+        <ul class="plan-list">
+          <li class="yes">Treino <strong>e</strong> dieta</li>
+          <li class="yes">Acompanhamento completo</li>
+          <li class="yes">Ajustes conforme sua evolução</li>
+          <li class="yes">Suporte direto</li>
+          <li class="yes">Aplicativo exclusivo</li>
+          <li class="yes">Guia Didático de Progressão de Carga</li>
+          <li class="yes">E-books exclusivos</li>
+        </ul>
+        <div class="plan-pricing">
+          <p class="plan-only">Escolha a duração:</p>
+          <ul class="durations">
+            <li><span>Trimestral</span><b>R$ 540<small>3x de R$ 180</small></b></li>
+            <li><span>Semestral</span><b>R$ 1.020<small>6x de R$ 170</small></b></li>
+            <li><span>Anual</span><b>R$ 1.800<small>12x de R$ 150</small></b></li>
+          </ul>
+        </div>
+        <a class="btn btn-outline plan-btn" href="https://wa.me/message/B2UKSFDEUSQTC1" target="_blank" rel="noopener">Quero o Plus</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<div class="divisor" aria-hidden="true"><span class="divisor-raio"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4.5 13.5H11l-1 8.5 8.5-11.5H12l1-8.5z"/></svg></span></div>
+
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Dúvidas</span>
+      <h2>Perguntas frequentes</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item" open>
+        <summary>Como funciona o acompanhamento?</summary>
+        <p>Após a confirmação da inscrição, você responde à anamnese e recebe seu protocolo totalmente individualizado. Durante o acompanhamento, os ajustes são realizados conforme sua evolução, feedbacks e necessidades.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Preciso treinar em alguma academia específica?</summary>
+        <p>Não. O treino é desenvolvido considerando os equipamentos que você tem disponíveis. Caso algum exercício não possa ser realizado, ele é substituído por outra opção equivalente.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Em quanto tempo recebo meu protocolo?</summary>
+        <p>Após o preenchimento da anamnese, o protocolo é elaborado individualmente e enviado em até 5 dias úteis.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Tenho dor ou alguma limitação. Posso participar?</summary>
+        <p>Sim. Essas informações são levantadas durante a anamnese e consideradas na elaboração do treino, respeitando suas limitações e histórico.</p>
+      </details>
+      <details class="faq-item">
+        <summary>E se eu nunca conseguir manter uma rotina?</summary>
+        <p>Esse é justamente um dos principais motivos para buscar acompanhamento. O objetivo da consultoria não é apenas entregar um treino, mas construir uma estratégia que faça sentido para sua realidade e possa ser mantida ao longo do tempo.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Os treinos são iguais para todas as alunas?</summary>
+        <p>Não. Cada protocolo é desenvolvido individualmente considerando seus objetivos, rotina, experiência, disponibilidade de equipamentos, limitações e evolução durante o acompanhamento.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<div class="divisor" aria-hidden="true"><span class="divisor-raio"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L4.5 13.5H11l-1 8.5 8.5-11.5H12l1-8.5z"/></svg></span></div>
+
+<section class="cta-final">
+  <div class="container cta-grid reveal">
+    <div class="cta-photo">
+      <img src="imagens/luis.webp" alt="Luis Fernando, responsável pela consultoria LFTEAM" loading="lazy">
+      <div class="cta-photo-fade"></div>
+    </div>
+    <div class="cta-text">
+      <span class="eyebrow">Próximo passo</span>
+      <h2>Pronta pra treinar com método?</h2>
+      <p>Chega de treinar sem direção e repetir ficha genérica. Fala comigo e vamos montar o protocolo que faz sentido pra sua rotina.</p>
+      <a class="btn btn-primary btn-lg" href="https://wa.me/message/B2UKSFDEUSQTC1" target="_blank" rel="noopener">Entrar para o time</a>
+      <p class="cta-note">Resposta direto no WhatsApp, sem compromisso.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <img src="imagens/logo.png" alt="LFTEAM" class="foot-logo" width="600" height="600" loading="lazy">
+        <p class="foot-desc">Consultoria online de treino — protocolo individualizado, sem fórmula pronta.</p>
+      </div>
+      <div class="foot-links">
+        <a href="#resultados">Resultados</a>
+        <a href="#metodo">Método</a>
+        <a href="#planos">Planos</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://instagram.com/_luisfernando._" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 LFTEAM. Todos os direitos reservados.</span>
+      <span>Olho D'Água das Cunhãs, MA</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/message/B2UKSFDEUSQTC1" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.07-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.43-4.4-1.18l-.32-.19-3.02.79.8-2.94-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.4-5.9c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.1.16 1.52.1.46-.07 1.43-.58 1.63-1.15.2-.56.2-1.04.14-1.15-.06-.1-.22-.16-.46-.28z"/></svg>
+</a>
+
+<script src="script.js"></script>
+
+<!-- Vercel Web Analytics — sem cookies, não identifica visitante (compatível com LGPD). -->
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>

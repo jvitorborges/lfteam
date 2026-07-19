@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+package.json
+PENDENCIAS.md
+drive
+_prev
+_conv.js
+_build-imgs.js

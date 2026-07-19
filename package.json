@@ -1,0 +1,11 @@
+{
+  "name": "lfteam-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site LFTEAM. Dependencias abaixo sao APENAS ferramentas de build de imagem/video (nao vao pro ar).",
+  "devDependencies": {
+    "ffmpeg-static": "^5.3.0",
+    "heic-convert": "^2.1.0",
+    "sharp": "^0.35.3"
+  }
+}
