@@ -6,6 +6,27 @@ Projeto na Vercel: `lfteam-site` (conta `jvitorborges`)
 
 ---
 
+## 0. Originais do Drive NÃO estão no backup ⚠️
+
+O repositório versiona só o site (2,9 MB). A pasta `drive/` — fotos em alta
+resolução e o vídeo original de 34 MB — está no `.gitignore` por decisão
+consciente, para manter o repositório leve.
+
+**Onde os originais existem hoje:**
+
+1. No Google Drive do cliente (conta `fernandoalves.fah2o@gmail.com`)
+2. Na pasta local `drive/` desta máquina
+
+**O risco:** os dois lugares podem sumir. O Drive é do cliente — se ele apagar a
+pasta, reorganizar ou a relação terminar, o acesso acaba. E a máquina local pode
+falhar. Sem os originais, não dá para gerar recortes novos: as versões do site
+já estão reduzidas e comprimidas.
+
+**Se quiser resolver depois:** copiar a pasta `drive/` para um Drive/OneDrive
+seu, ou tirar `drive/` do `.gitignore` (o GitHub aceita tranquilamente os 49 MB).
+
+---
+
 ## 1. Depoimentos reais (bloqueia divulgação forte)
 
 A seção de depoimentos está **comentada** no [`index.html`](index.html), procure por
